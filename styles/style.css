@@ -166,6 +166,36 @@ body {
     animation: part3 1.5s linear;
 }
 
+@keyframes part1 {
+    0% {
+        height: 0;  
+        margin-top: 200px
+    }
+    50% {
+        height: 184px;  
+    }
+    100% {
+        height: 184px; 
+        margin-top: 0px;  
+    }
+}
+
+
+@keyframes part3 {
+    0% {
+        height: 0;  
+        margin-top: 360px
+    }
+    50% {
+        height: 184px;  
+    }
+    100% {
+        height: 184px;  
+        margin-top: 0px; 
+    }
+}
+
+
 @media screen and (max-width: 1300px) {
 
  .preloader_container {
@@ -382,34 +412,6 @@ body {
 
 
 
-@keyframes part1 {
-    0% {
-        height: 0;  
-        margin-top: 200px
-    }
-    50% {
-        height: 184px;  
-    }
-    100% {
-        height: 184px; 
-        margin-top: 0px;  
-    }
-}
-
-
-@keyframes part3 {
-    0% {
-        height: 0;  
-        margin-top: 360px
-    }
-    50% {
-        height: 184px;  
-    }
-    100% {
-        height: 184px;  
-        margin-top: 0px; 
-    }
-}
 
 @media screen and (max-width: 1500px) {
     .header_navbar__logo img {
