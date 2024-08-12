@@ -510,6 +510,15 @@ body {
     .header_navbar__description p {
         display:none;
     }
+
+      .header_info {
+        margin-top: 10px;
+    }
+
+    .header_info__description {
+        margin-top: 0px;
+        gap: 0px;
+    }
 }
 
 
@@ -606,21 +615,21 @@ body {
 @media screen and (max-width: 400px) {
     .fixed_image {
        
-        top: 58%;
+        top: 60%;
         left: 14%;
        
         z-index:1;
-        width: 70%;
+        width: 250px;
         animation: monitorAnimated 1.5s forwards 1.5s;
     }
 
     @keyframes monitorAnimated {
         from {
-            top: 68%;
+            top: 70%;
         }
     
         to {
-            top: 58%;
+            top: 60%;
         }
     }
     
