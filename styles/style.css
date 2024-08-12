@@ -749,7 +749,6 @@ color: white;
     display: flex;
     flex-direction: column;
     gap: 70px;
-    height: 100vh;
     z-index: 8;
     position: relative;
     background-color: white;
