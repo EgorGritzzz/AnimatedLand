@@ -511,7 +511,27 @@ body {
         display:none;
     }
 
-      .header_info {
+    .header_info {
+        margin-top: 50px;
+    }
+
+    .header_info__description {
+        margin-top: 0px;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .header_navbar__logo img {
+        width: 100px;
+    }
+
+    .header_navbar__description p {
+        display:none;
+    }
+
+    .header_info {
         margin-top: 10px;
     }
 
@@ -613,6 +633,30 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    .fixed_image {
+       
+        top: 58%;
+        left: 14%;
+       
+        z-index:1;
+        width: 70%;
+        animation: monitorAnimated 1.5s forwards 1.5s;
+    }
+
+    @keyframes monitorAnimated {
+        from {
+            top: 70%;
+        }
+    
+        to {
+            top: 58%;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 350px) {
     .fixed_image {
        
         top: 60%;
